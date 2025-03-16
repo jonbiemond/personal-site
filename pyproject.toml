@@ -1,0 +1,12 @@
+[project]
+name = "calepin"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Jonathan Biemond", email = "jonbiemond@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "pelican[markdown]>=4.11.0",
+]
