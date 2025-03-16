@@ -1,12 +1,26 @@
-AUTHOR = 'Jonathan Biemond'
-SITENAME = 'Jonathan Biemond'
+AUTHOR = "Jonathan Biemond"
+SITENAME = "Jonathan Biemond"
 SITEURL = ""
+SITE_DESCRIPTION = (
+    "The personal website of Jonathan Biemond. A developer and data person."
+)
 
 PATH = "content"
+PAGE_PATHS = [""]
+ARTICLE_PATHS = ["posts"]
+TIMEZONE = "Europe/Zurich"
 
-TIMEZONE = 'Europe/Rome'
+DEFAULT_LANG = "en"
 
-DEFAULT_LANG = 'en'
+# URL Settings
+PAGE_URL = "{slug}/"
+PAGE_SAVE_AS = "{slug}.html"
+ARTICLE_URL = "{category}/{slug}.html"
+ARTICLE_SAVE_AS = "{category}/{slug}.html"
+CATEGORY_URL = "{slug}/"
+CATEGORY_SAVE_AS = "{slug}.html"
+TAG_URL = "tag/{slug}/"
+TAG_SAVE_AS = "tag/{slug}.html"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
