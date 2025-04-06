@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Blog - {{ SITENAME }}{% endblock title%}
+{% block content %}
+<div class="article-list nu">
+	{% for article in articles %}
+		<div class="article-list-item">
+			<a href="{{ article.url }}">{{ article.title }}</a>
+			</hr>
+		</div>
+		<time class="grayed-out">{{ article.date | strftime('%Y-%m-%d') }}</time>
+	{% endfor %}
+</div>
+{% endblock %}

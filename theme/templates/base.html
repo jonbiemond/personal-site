@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>{% block title %}{% endblock title %}</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="/theme/css/style.css" />
+	</head>
+	
+	<body>
+		<header class="container nu">
+			<h1>
+				<a class="sitename {% if article %}dimmed greyed-out{% endif %}" 
+				   href="/">
+					{{ SITENAME }}
+				</a>
+			</h1>
+			<nav>
+				<a href="/" 
+				   {% if output_file == 'index.html' %}class="highlighted"{% endif %}>
+					Posts
+				</a> |
+				<a href="/about"
+				   {% if output_file == 'about.html' %}class="highlighted"{% endif %}>
+					About
+				</a>
+			</nav>
+		</header>
+		<div class="container vertical-spacing no-top main-content">
+			{% block content %}{% endblock content %}
+		</div>
+		<footer class="container nu no-top">
+		</footer>
+	</body>
+</html>

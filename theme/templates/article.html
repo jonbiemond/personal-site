@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}{{ article.title }} - {{ SITENAME }}{% endblock title %}
+{% block content %}
+	<h1 class="article-title">
+		<a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>
+	</h1>
+	<div>
+		<i class="grayed-out">{{ article.date | strftime("%B %-d, %Y") }}</i>
+	</div>
+	<div class="article-body">
+		{{ article.content }}
+	</div>
+	<br>
+	<div class="article-footer">
+	</div>
+{% endblock content %}
