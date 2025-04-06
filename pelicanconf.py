@@ -6,14 +6,14 @@ SITE_DESCRIPTION = (
 )
 
 PATH = "content"
-PAGE_PATHS = [""]
+PAGE_PATHS = ["pages"]
 ARTICLE_PATHS = ["posts"]
 TIMEZONE = "Europe/Zurich"
 
 DEFAULT_LANG = "en"
 
 # URL Settings
-PAGE_URL = "{slug}/"
+PAGE_URL = "{slug}.html"
 PAGE_SAVE_AS = "{slug}.html"
 ARTICLE_URL = "{category}/{slug}.html"
 ARTICLE_SAVE_AS = "{category}/{slug}.html"
