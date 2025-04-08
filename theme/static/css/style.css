@@ -1,8 +1,3 @@
-* {
-  /* box-sizing: border-box; */
-  /* border: 0.5px solid black; */
-}
-
 :root {
   --color-light-primary: #111;
   --color-light-secondary: #333;
@@ -29,7 +24,7 @@
   --code-background: var(--color-light-code-background);
   --base-font: system-ui, helvetica, ubuntu, roboto, "segoe ui", sans-serif;
   --fancy-font: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
- --code-font: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 
+  --code-font: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas,
     'DejaVu Sans Mono', monospace;
 }
 
@@ -81,10 +76,6 @@ h6 {
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.main-content img {
-  max-width: 100%;
 }
 
 .no-top > :first-child {
