@@ -39,8 +39,10 @@ DEFAULT_PAGINATION = False
 
 STATIC_PATHS = [
     "extra/robots.txt",
+    "pdfs/biemond_jonathan_resume.pdf",
 ]
 
 EXTRA_PATH_METADATA = {
     "extra/robots.txt": {"path": "robots.txt"},
+    "pdfs/biemond_jonathan_resume.pdf": {"path": "biemond_jonathan_resume.pdf"},
 }
