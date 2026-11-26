@@ -4,7 +4,7 @@
   --color-light-background: #fff;
   --color-light-tertiary: #4966c9;
   --color-light-code: #111;
-  --color-light-code-background: #f6f8fa;
+  --color-light-code-background: #f4f6ff;
   --color-light-filtering: 0%;
 
   --color-dark-primary: rgb(255, 255, 255);
@@ -166,7 +166,7 @@ code {
   padding-bottom: 2px;
   padding-left: 2px;
   padding-right: 2px;
-  border-radius: 6px;
+  border-radius: 4px;
 }
 
 pre code {
@@ -183,11 +183,7 @@ pre code {
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  border-radius: 6px;
-  box-shadow:
-    0 4px 8px rgba(0, 0, 0, 0.1),
-    0 2px 4px rgba(0, 0, 0, 0.1);
-  border: 0.5px solid black;
+  border-radius: 0px;
 }
 
 footer {
@@ -208,13 +204,6 @@ footer {
 
   img.companies {
     filter: invert(100%);
-  }
-
-  pre code {
-    border: 0.5px solid #444;
-    box-shadow:
-      0 4px 8px rgba(0, 0, 0, 0.3),
-      0 2px 4px rgba(0, 0, 0, 0.2);
   }
 }
 
