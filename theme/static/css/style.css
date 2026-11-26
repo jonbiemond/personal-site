@@ -151,6 +151,7 @@ a {
 
 .nu a {
   text-decoration: none;
+  transition: color 0.15s;
 }
 
 .nu a:hover {
@@ -187,8 +188,20 @@ pre code {
 }
 
 footer {
-  padding-top: 0px;
-  padding-bottom: 20px;
+  margin-bottom: 4rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 1rem;
+  list-style: none;
+}
+
+.footer-link {
+  display: flex;
+  align-items: center;
 }
 
 @media (prefers-color-scheme: dark) {
